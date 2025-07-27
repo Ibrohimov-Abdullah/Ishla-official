@@ -12,14 +12,32 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  # to launch Urls to move from one to another app or link
   url_launcher: ^6.3.2
+  # for working with RestApis
   dio: ^5.8.0+1
+  # to put logo for app
   flutter_launcher_icons: ^0.14.4
+  # to be able to put profile photo or to send
   image_picker: ^1.1.2
+  # to check internet connection
   connectivity_plus: ^6.1.4
+  # to save small size informations
   shared_preferences: ^2.5.3
+  # for state management
   get: ^4.7.2
+  # to make app responsive
   flutter_screenutil: ^5.9.3
+  # to change and use data easily
+  intl: ^0.20.2
+  # to work with google maps
+  google_maps_flutter: ^2.12.3
+  # to make logs with colors
+  l: ^5.0.1
+  # for using svg files
+  flutter_svg: ^2.2.0
+  # for easy using google fonts
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
@@ -38,3 +56,4 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/icons/
